@@ -12,6 +12,8 @@ import DataProvider from "./provider/provider";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Data from "./pages/SondDetails";
 import Search from "./pages/Search";
+// import DetailsPage from "./pages/DetailsPage"
+// import DetailsPage from "./pages/DetailsPage"
 
 
 function App() {

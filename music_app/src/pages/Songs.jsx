@@ -99,6 +99,7 @@ const Songs = () => {
                     src={item?.image[2]?.link}
                     alt=""
                     className="object-cover w-full h-full"
+                    style={{cursor:"pointer"}}
                     onClick={() => {
                       navigate(`/details/${item.id}`);
                     }}
@@ -131,6 +132,7 @@ const Songs = () => {
                     src={item?.image[2]?.link}
                     alt=""
                     className="object-cover w-full h-full"
+                    style={{cursor:"pointer"}}
                     onClick={() => {
                       navigate(`/details/${item.id}`);
                     }}
